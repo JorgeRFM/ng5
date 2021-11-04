@@ -607,7 +607,7 @@ class HomeComponent {
     }
     addItem() {
         //    this.goals.push(this.goalText);
-        var mytoken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkc29mdCIsImV4cCI6MTYzNDc5NTgwMiwib3JpZ0lhdCI6MTYzNDc5NTUwMn0._6tOsFeS7Li59toIpxyD1rDNi_HXnjvcDPBjoKXNcUk";
+        var mytoken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImpvcmdlRnJhbmNvIiwiZXhwIjoxNjM1OTg1NjA0LCJvcmlnSWF0IjoxNjM1OTg1MzA0fQ.R6Y5bDFiX5TQmZJVnF7oYvVB_mbrMSk5amAIFekU3F8";
         //this.storageService.getSession("token");
         alert(this.goalText);
         this.graphqlProductsService.createLink(mytoken, "https://www.github.com", this.goalText)
